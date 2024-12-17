@@ -1,0 +1,22 @@
+{
+  "name": "my-source-map-support",
+  "version": "1.0.0",
+  "description": "node原来的，node1自己写的source-map，node2使用source-map",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "node": "node ./dist/index.js",
+    "node1": "node --import ./dist/register.js ./dist/index.js",
+    "node2": "node --enable-source-maps ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "source-map": "^0.6.1"
+  }
+}

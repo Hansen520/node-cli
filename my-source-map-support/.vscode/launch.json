@@ -1,0 +1,13 @@
+{
+    "name": "调试!!!",
+    "program": "${workspaceFolder}/src/index.ts",
+    "request": "launch",
+    "console": "integratedTerminal",
+    "skipFiles": [
+        "<node_internals>/**"
+    ],
+    "type": "node",
+    "configurations": [
+
+    ],
+}
