@@ -15,4 +15,4 @@ worker.postMessage({
 
 port1.on('message', (value) => {
     console.log('res', value);
-})
+});

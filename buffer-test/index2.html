@@ -1,0 +1,27 @@
+<!--
+ * @Date: 2024-12-17 17:52:22
+ * @Description: description
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const buffer = new ArrayBuffer(10);
+
+        const dataView = new DataView(buffer);
+
+        dataView.setUint16(0, 256); // DataView 你得告诉从哪里开始读写
+
+        console.log(dataView.getUint16(0));
+
+        console.log(dataView.getUint8(0));
+        console.log(dataView.getUint8(8));
+    </script>
+</body>
+</html>
+ 
