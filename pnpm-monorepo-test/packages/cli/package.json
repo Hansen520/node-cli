@@ -1,0 +1,25 @@
+{
+  "name": "@han-pnpm/cli",
+  "version": "2.2.0",
+  "description": "cli",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "num-cli": "dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@han-pnpm/core": "workspace:*",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  }
+}
