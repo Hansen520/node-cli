@@ -8,6 +8,7 @@ npx changeset init
 --filter 指定在 cli 包下执行 add 命令,  加上 --workspace 就是从本地查找
 
 pnpm --filter cli add @hansen-cli/create --workspace
+pnpm --filter create add @hansen-cli/utils --workspace
 
 # 安装ts
 pnpm add typescript @types/node -w --save-dev
@@ -16,3 +17,4 @@ pnpm add typescript @types/node -w --save-dev
 pnpm --filter utils exec npx tsc --init
 
 pnpm --filter utils exec node ./dist/test.js
+
