@@ -11,3 +11,8 @@ pnpm --filter cli add @hansen-cli/create --workspace
 
 # 安装ts
 pnpm add typescript @types/node -w --save-dev
+
+# 初始化 tsconfig.json
+pnpm --filter utils exec npx tsc --init
+
+pnpm --filter utils exec node ./dist/test.js
