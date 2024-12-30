@@ -6,7 +6,7 @@ import OpenAI from "openai";
 import fs from "node:fs";
 
 const client = new OpenAI({
-  apiKey: "fk202233-4iuohmeNYqwl6doCXmPmUyn0gooDZ9GH",
+  apiKey: "",
   baseURL: "https://oa.api2d.net",
 });
 
