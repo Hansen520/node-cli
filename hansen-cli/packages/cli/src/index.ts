@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import create from '@hansen-cli/create';
+import generate from '@hansen-cli/generate';
 import { Command } from 'commander';
 import fse from 'fs-extra';
 import path from 'node:path';
@@ -19,4 +20,9 @@ program.command('create')
         create();
     });
 
+program.command('generate')
+        .description('生成组件（基于AI）')
+        .action(async () => {
+        generate()
+    })
 program.parse();
