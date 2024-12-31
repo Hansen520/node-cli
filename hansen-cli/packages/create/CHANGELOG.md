@@ -1,5 +1,12 @@
 # @hansen-cli/create
 
+## 1.1.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @hansen-cli/utils@1.2.1
+
 ## 1.1.0
 
 ### Minor Changes

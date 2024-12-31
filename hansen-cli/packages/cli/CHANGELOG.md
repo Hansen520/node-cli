@@ -1,5 +1,17 @@
 # @hansen-cli/cli
 
+## 0.2.0
+
+### Minor Changes
+
+- generate command
+
+### Patch Changes
+
+- Updated dependencies
+  - @hansen-cli/generate@1.1.0
+  - @hansen-cli/create@1.1.1
+
 ## 0.1.0
 
 ### Minor Changes

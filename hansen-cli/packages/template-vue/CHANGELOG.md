@@ -1,5 +1,11 @@
 # @hansen-cli/template-vue
 
+## 1.2.1
+
+### Patch Changes
+
+- generate command
+
 ## 1.2.0
 
 ### Minor Changes
