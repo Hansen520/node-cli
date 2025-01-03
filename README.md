@@ -44,4 +44,20 @@ const Transform = stream.Transform;
 # 40 脚手架基本
  fs-extra、inquirer、glob、npminstall、semver、ora、cli-spinner的使用
 
+# 41 脚手架cli 获取版本号
+
+# 42 脚手架cli create
+
+# 43 调用AI接口生成组件
+
+# 44 脚手架cli generate命令
+
+# 45 脚手架cli：配置文件
+
+# 50 AI模型知识库后续再看
+
+
+
+
+
  
