@@ -56,6 +56,9 @@ const Transform = stream.Transform;
 
 # 50 AI模型知识库后续再看
 
+# 51-53 的学习和练习
+
+# 56-60 在语雀上面做一次小笔记
 
 
 
