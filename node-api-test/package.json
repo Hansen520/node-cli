@@ -11,5 +11,9 @@
   "description": "",
   "devDependencies": {
     "@types/node": "^22.10.6"
+  },
+  "dependencies": {
+    "cfonts": "^3.3.0",
+    "fs-extra": "^11.2.0"
   }
 }
