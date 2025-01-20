@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1737092620068" clover="3.2.0">
+  <project timestamp="1737092620068" name="All files">
+    <metrics statements="10" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3" elements="16" coveredelements="14" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+    <file name="sum.js" path="D:\nodeProject\node-cli\jest-test\sum.js">
+      <metrics statements="10" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="13" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -58,9 +58,9 @@ const Transform = stream.Transform;
 
 # 51-53 的学习和练习
 
-# 56-60 在语雀上面做一次小笔记
+# 56-57 在语雀上面做一次小笔记
 
-
+# 58 手写jest
 
 
  
